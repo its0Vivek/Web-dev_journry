@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action">
+        <h1>Registration</h1>
+        <div>
+           <input type="text" placeholder="First Name" name="f"> 
+           <input type=" text" placeholder="Last Name"  name="l">
+        </div>
+        <div>
+            <label for="gender">Please select gender</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">female</option>
+            </select>
+        </div>
+        <div>
+            Do you agree to terns of service?
+            <input type="checkbox" name="term" id="term">
+            <label for="term">Yes, I agree</label>
+        </div>
+        <div>
+            <input type="submit" value="submit">
+        </div>
+
+    </form><hr>
+    <table border="black">
+        <caption>Student Information</caption>
+            <tr>
+                <th rowspan="6">Info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Adderss</th>
+            </tr>
+            <tr>
+                <th>city</th>
+                <th>House</th>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>Delhi</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Mumbai</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Kolkata</td>
+                <td>pune</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>Pune</td>
+                <td>4</td>
+            </tr>
+    </table>
+    <hr>
+            <!-- form  -->
+    <form action="/server">
+        <div>
+            <label for="n">name</label>
+            <input type="text" id="n" name="name">
+        </div>
+        <div>
+            Sex : <input type="radio" id="male" name="male">
+            <label for="male" >male</label>
+            <input type="radio" id="female" name="female">
+            <label for="female">female</label>
+        </div>
+        <div>
+            <label for="Country">Country :</label>
+             <select name="Country" id="Country">
+                <option value="">Select an option</option>
+                <option value="ind">india</option>
+                <option value="pak">pakistan</option>
+            </select>
+            </div>
+            <div>
+            <label for="ta">Message: </label>
+        </div>
+            <textarea name="ta" id="ta" cols="30" rows="10"></textarea>
+        <div>
+            <input type="checkbox" name="sub" id="sub">
+            <label for="sub">Subcrube?</label>
+        </div>
+        <div>
+            <input type="submit" name="sub" id="">
+        </div>
+        
+    </form>
+                    <!-- form  -->
+                    <H1>Feedback Form</H1>
+        <form action="/action">
+            <label for="n">Name:</label>
+            <input type="text" name="name" id="n" placeholder="Write your name"><br>
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" placeholder="Write your Email"><br>
+            <label for="Message">Message</label><br>
+            <textarea name="ta" id="Message" cols="30" rows="10"></textarea><br>
+            Rate us our of 5: <br>
+            <input type="radio" name="1" id="1" value="1"> 1  <br>
+            <input type="radio" name="1" id="2" value="2"> 2 <br>
+            <input type="radio" name="1" id="3" value="3"> 3 <br>
+            <input type="radio" name="1" id="4" value="4"> 4 <br>
+            <input type="radio" name="1" id="5" value="5"> 5 <br>
+            <input type="submit" name="sub" id="" value="send your Message!">
+        </form>
+</body>
+</html>

@@ -1,0 +1,43 @@
+.box {
+    width: 300px;
+    height: 100px;
+    background-color: palevioletred;
+
+    /* animation-name: Fanimation, Canimation, Wanimation;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: Wanimation 2s ease-in 0s infinite alternate;
+}
+
+@keyframes Fanimation {
+    from {
+        font-size: 20px;
+    }
+    to {
+        font-size: 40px;
+    }
+}
+@keyframes Canimation {
+    from {
+        background-color: palevioletred;
+    }
+    to {
+        background-color: #fff;
+    }
+}
+@keyframes Wanimation {
+    0% {
+       width: 50px;
+       background-color: palevioletred;
+    }
+    50% {
+        background-color: #5f3b3b;
+    }
+    100% {
+       width: 200px;
+       border-radius: 30px;
+       background-color: #fff;
+    }
+}

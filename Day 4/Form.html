@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Form</title>
+</head>
+<body>
+    <form action="/action">
+       <div>
+        <label for="Enter Username">User Name :</label>
+       <input type="text" id="Enter Username" placeholder="Enter Username" name="User">
+       </div>
+       <div>
+        <label for="Enter password">Password :</label> 
+        <input type="password" id="Enter password" placeholder="Enter password" name="Passw">
+       </div>
+       <div>
+        <label for="age">Enter Age :</label>
+       <input type="number" id="age" placeholder="Enter Age" name="age"> 
+       </div> 
+       <!-- checkbox -->
+       <div>
+        <label for="I am 18+">I am 18+</label>
+        <input type="checkbox" name="age1" id="I am 18+">
+       </div>
+
+       <!-- radio -->
+       <div>       
+        <label for="mango">mango</label>
+        <input type="radio" name="fruit" id="mango" value="mango">
+        <label for="orango">orango</label>
+        <input type="radio" name="fruit" id="orango" value="orange">
+        <label for="apple">apple</label>
+        <input type="radio" name="fruit" id="apple" value="apple">
+       </div>
+       
+       <input type="submit" value="Submit">
+       <input type="reset" value="Reset">
+  
+             
+       <div>
+        choose your profession
+    <select name="profession" id="profession">
+        <option value="">Select your profession</option>
+        <option value="stu">Student</option>
+        <option value="dev" >Devloper</option> 
+    </select>
+</div>                   <!-- dropdown  -->
+    
+                            <!-- range -->
+<div>
+    <label for="vol">volume</label>
+    <input type="range" name="vol" id="vol" min="0" max="100" step="20" value="20">
+</div>
+                                     <!-- Textarea -->
+<label for="fd">Feedback</label>
+ <textarea name="f_d" id="fd" cols="30" rows="10" placeholder="Write your Feedback"></textarea>
+
+
+ 
+         
+        </form>  <hr>              
+
+</body>
+</html>

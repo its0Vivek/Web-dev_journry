@@ -1,0 +1,46 @@
+#container {
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction:column;
+    /* justify-content: flex-start; */
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* align-content: space-evenly; */
+
+
+}
+h1 {
+    text-align: center;
+}
+#container div {
+    height: 100px;
+    width: 80%;
+    color: white;
+    text-align: center;
+    font-size: 0.5cm;
+    flex-grow: 50000;
+
+}
+.six {
+    align-self: flex-start;
+    /* flex-basis: 150px; */
+    flex-grow: 1;
+    /* flex-shrink: 2; */
+    /* flex-basis: 50px; */
+    max-width: 400px;
+    min-width: 200px;
+width: 500px;
+    
+
+}
+#blue {
+    /* flex-basis: 400px; */
+    /* flex-grow: 1; */
+    min-width: 300px;
+    /* flex-shrink: 2; */
+    flex: 2 2 100px;
+}
