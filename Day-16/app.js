@@ -24,3 +24,7 @@ console.log(newMsg)
 
 let name = "ApnaCollege";
 let str = name.slice(4)
+
+//////////////////////////////////////////////////////////
+
+let vivek = ["vivek","niku","raju","vilas","niketan"];
