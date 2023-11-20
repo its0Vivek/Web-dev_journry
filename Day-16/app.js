@@ -59,11 +59,27 @@ console.log(ans1)
 
 //////////////////////////////////////////////////
 
-let cha = "APnaCoLLage";
-let chh = 3;
+// let cha = "APnaCoLLage";
+// let chh = 3;
 
-if (cha(chh) == cha.toLowerCase()) {
-    console.log("characater is empty")
-}else{
-    console.log("characater is not empty")
+// if (cha[chh] == cha[chh].toLowerCase()) {
+//     console.log("characater is LowerCase")
+// }else{
+//     console.log("characater is not LowerCase")
+// }
+
+/////////////////////////////////////////////////////////////////////////
+
+// let strr = prompt("place enter a string")
+// console.log("original string" = strr);
+
+/////////////////////////////////////////////////////////////////////////////
+
+let abc = ["hello","a",23,45,-4];
+let item = 45;
+
+if(abc.indexOf(item) != -1) {
+    console.log("element exeists an array")
+}else {
+    console.log("element doesn't exeists in array")
 }
