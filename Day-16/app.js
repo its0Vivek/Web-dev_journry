@@ -75,11 +75,13 @@ console.log(ans1)
 
 /////////////////////////////////////////////////////////////////////////////
 
-let abc = ["hello","a",23,45,-4];
-let item = 45;
+// let abc = ["hello","a",23,45,-4];
+// let item = 45;
 
-if(abc.indexOf(item) != -1) {
-    console.log("element exeists an array")
-}else {
-    console.log("element doesn't exeists in array")
-}
+// if(abc.indexOf(item) != -1) {
+//     console.log("element exeists an array")
+// }else {
+//     console.log("element doesn't exeists in array")
+// }
+ 
+//////////////////////////////////////////////
