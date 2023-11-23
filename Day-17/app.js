@@ -36,8 +36,77 @@
 //////////////////////////////////////////////////////////
 //Nexted loop 
 
-for(let i=1; i<=3; i++) {
-    for(let j=1; j<=3; j++) {
-        console.log(j);
+// for(let i=1; i<=3; i++) {
+//     console.log(`outer loop ${i}`)
+//     for(let j=1; j<=3; j++) {
+//         console.log(j);
+//     }
+// }
+
+//////////////////////////////////
+//while loop
+
+// let i = 0;
+
+// while (i<=20) {
+//     console.log(i);
+//     i++
+// }
+////////////////////////////////////////
+//favorite movie
+
+// const Fmovie = "avatar";
+
+// let guess = prompt("guess my favorite movie");
+
+// while((guess != Fmovie)) {
+//  if(guess == "quit") {
+//     console.log("You Quit")
+//     break;
+//  }
+//  guess = prompt("wrong guess. pls try again");
+// }
+
+// if(guess == Fmovie) {
+//     console.log("congrats")
+// }
+
+/////////////////////////////////////////////
+//break keyword
+
+// let i=1;
+// while (i<=5) {
+//     if(i == 3) {
+//         break;
+//     }
+//     console.log(i);
+//     i++;
+// }
+
+////////////////////////////////////////////////////////////
+//loops with Arrays
+
+// let fruits = ["mango","apple", "banana", "litchi", "orange"];
+
+// for (let i=0; i<fruits.length; i=i+2) {
+//     console.log(i, fruits[i]);
+// }
+
+
+// for (let i=fruits.length-1; i>=0; i--) {
+//     console.log(i, fruits[i]);
+// }
+
+////////////////////////////////////////////////////////
+//loops with Arrays  nested loop
+
+let heroes =  [
+    ["ironman","spiderman","thor"],["superman","wonder woman","flash"]
+];
+
+for(let i = 0; i<heroes.length; i++){
+    console.log(`list #${I}`);
+    for(let j = 0; j<heroes[i].length; i++) {
+        console.log(heroes[i][j])
     }
 }
