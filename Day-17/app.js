@@ -100,13 +100,50 @@
 ////////////////////////////////////////////////////////
 //loops with Arrays  nested loop
 
-let heroes =  [
-    ["ironman","spiderman","thor"],["superman","wonder woman","flash"]
-];
+// let heroes =  [
+//     ["ironman","spiderman","thor"],["superman","wonder woman","flash"]
+// ];
 
-for(let i = 0; i<heroes.length; i++){
-    console.log(`list #${I}`);
-    for(let j = 0; j<heroes[i].length; i++) {
-        console.log(heroes[i][j])
-    }
-}
+// for(let i = 0; i<heroes.length; i++){
+//     console.log(`list #${i}`);
+//     for(let j = 0; j<heroes[i].length; j++) {
+//         console.log(`j=${j} ,eroes[i][j]`);
+//     }
+// }
+
+//////////////////////////////////////////////////////////
+
+// let member = [  ["aman", 95], ["shradha", 94.5], ["karan", 100]];
+
+// for(let i=0; i<member.length; i++) {
+//     console.log(`member no # ${i}`);
+//     for(n=0; n<member[i].length; n++) {
+//         console.log(member[i][n]);
+//     }
+// }
+
+////////////////////////////////////////////////////////////////////////
+//for of loop
+
+//  let fruits = ["mango", "apple", "banana", "orange", "litchi"];
+
+//  for(fruit of fruits ) {
+//     console.log(fruit)
+//  }
+
+//  for(char of "apnacollage") {
+//     console.log(char)
+//  }
+
+////////////////////////////////////////////////////////////////////////////////////
+////for of loop nexted
+
+// let heroes =  [ ["ironman","spiderman","thor"],["superman","wonder woman","flash"]
+//  ];
+
+//  for(list of heroes) {
+//     // console.log(list);
+//     for(hero of list) {
+//         console.log(hero)
+//     }
+//  }
