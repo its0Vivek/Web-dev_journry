@@ -27,6 +27,8 @@ while(true) {
       let idx = prompt("please enter your test idx ");
       todo.splice(idx, 1);
       console.log("task deleted")
+    } else {
+        console.log("wronge requist");
     }
 
    req = prompt("please enter your request ");
