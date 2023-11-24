@@ -145,5 +145,23 @@
 //     // console.log(list);
 //     for(hero of list) {
 //         console.log(hero)
-//     }
+//          }
 //  }
+
+
+// let arr = [1,2,3,4,2,3];
+// let num = 2;
+
+// for(let i = 0;  i<arr.length; i++) {
+//     if(arr[i] == num)
+//     arr.splice(i, 1)
+// }
+// console.log(arr)
+
+/////////////////////////////////////////////////////////////////
+
+let number = 287152;
+let sum = 0;
+
+let copy = number;
+
